@@ -4,10 +4,170 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <title>Photography Studio Hero</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <header class="z-10 relative">
+        <div class="container mx-auto px-5 flex items-center">
+          <a href="/" class="mr-auto font-bold text-2xl">Lumlum</a>
+          <nav class="flex space-x-20">
+            <a href="" class="text-sm py-4 duration-300 ease-in-out">Home</a>
+            <a
+              href=""
+              class="text-sm py-4 duration-300 ease-in-out text-slate-600 hover:text-black"
+              >Album</a
+            >
+            <a
+              href=""
+              class="text-sm py-4 duration-300 ease-in-out text-slate-600 hover:text-black"
+              >Contact</a
+            >
+          </nav>
+        </div>
+      </header>
+
+      <div class="h-screen overflow-hidden">
+        <div class="max-w-[600px] mx-auto text-center pt-5 z-30 relative">
+          <h1 class="text-xl sm:text-5xl font-bold leading-snug">
+            CAPTURING THE VIBE,<br />FREEZING THE MOMENT
+          </h1>
+          <p class="font-light mt-3">
+            Specialized in capturing amazing pictures and moments you would
+            always remember.
+          </p>
+          <button
+            type="button"
+            class="mt-5 h-14 bg-black text-white px-10 mx-auto rounded-full flex cursor-pointer items-center hover:bg-black/80 transition-opacity duration-300 ease-in-out"
+          >
+            <span class="mr-3">Send Us a message</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="relative overflow-hidden -top-[210px]">
+          <div
+            id="top-arc"
+            class="absolute left-0 right-0 bg-white rounded-b-full z-20"
+          ></div>
+          <div
+            class="bg-white h-[calc(90vh)] sm:h-screen flex overflow-hidden scroll-smooth slider"
+            style="--time: 20s"
+          >
+            <div class="flex">
+              <img src="/images/1.jepg" class="max-w-80 object-cover" alt="" />
+              <img src="/images/2.jpg" class="max-w-80 object-cover" alt="" />
+              <img src="/images/3.jpg" class="max-w-80 object-cover" alt="" />
+              <img src="/images/4.jpg" class="max-w-80 object-cover" alt="" />
+              <img src="/images/5.jpg" class="max-w-80 object-cover" alt="" />
+            </div>
+            <div class="flex" aria-hidden="true">
+              <img src="/images/1.jpg" class="max-w-80 object-cover" alt="" />
+              <img src="/images/2.jpg" class="max-w-80 object-cover" alt="" />
+              <img src="/images/3.jpg" class="max-w-80 object-cover" alt="" />
+              <img src="/images/4.jpg" class="max-w-80 object-cover" alt="" />
+              <img src="/images/5.jpg" class="max-w-80 object-cover" alt="" />
+            </div>
+          </div>
+          <div
+            id="bottom-arc"
+            class="absolute left-0 right-0 bg-white rounded-t-full"
+          ></div>
+        </div>
+        <div>
+          <div class="flex items-center absolute left-0 right-0 bottom-5">
+            <div class="container mx-auto px-5 md:px-0">
+              <div class="grid grid-cols-3">
+                <div class="flex flex-col uppercase text-sm font-bold">
+                  <a
+                    href="https://x.com/valerymelou"
+                    target="_blank"
+                    rel="noopener"
+                    >Valery Melou</a
+                  >
+                </div>
+                <div
+                  class="animate-bounce flex flex-col mx-auto items-center justify-center relative"
+                >
+                  <span
+                    class="text-ring rotate-[100deg] font-mono uppercase text-sm"
+                    style="--total: 24"
+                  >
+                    <span aria-hidden="true">
+                      <span style="--index: 0">s</span>
+                      <span style="--index: 1">c</span>
+                      <span style="--index: 2">r</span>
+                      <span style="--index: 3">o</span>
+                      <span style="--index: 4">l</span>
+                      <span style="--index: 5">l</span>
+                      <span style="--index: 6"> </span>
+                      <span style="--index: 7">d</span>
+                      <span style="--index: 8">o</span>
+                      <span style="--index: 9">w</span>
+                      <span style="--index: 10">n</span>
+                      <span style="--index: 11">&middot;</span>
+                      <span style="--index: 12">s</span>
+                      <span style="--index: 13">c</span>
+                      <span style="--index: 14">r</span>
+                      <span style="--index: 15">o</span>
+                      <span style="--index: 16">l</span>
+                      <span style="--index: 17">l</span>
+                      <span style="--index: 18"> </span>
+                      <span style="--index: 19">d</span>
+                      <span style="--index: 20">o</span>
+                      <span style="--index: 21">w</span>
+                      <span style="--index: 22">n</span>
+                      <span style="--index: 23">&middot;</span>
+                    </span>
+                  </span>
+                  <button
+                    class="h-14 p-1 rounded-full border absolute cursor-pointer"
+                    aria-label="Scroll Down"
+                    type="button"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="size-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3"
+                      />
+                    </svg>
+                  </button>
+                </div>
+                <p class="uppercase text-right text-sm font-bold">
+                  Memories that last forever
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
