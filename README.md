@@ -1,0 +1,36 @@
+# Photography Studio Hero
+
+A hero section for a photography studio.
+
+## Technologies
+
+- Vite
+- Tailwind CSS
+
+## Launch Instructions
+
+1.  Clone the repository:
+
+    ```bash
+    git clone <repository-url>
+    ```
+
+2.  Navigate to the project directory:
+
+    ```bash
+    cd photography-studio-hero
+    ```
+
+3.  Install the dependencies:
+
+    ```bash
+    yarn
+    ```
+
+4.  Start the development server:
+
+    ```bash
+    yarn dev
+    ```
+
+    This will start the development server. Open your browser and navigate to the address provided (usually `http://localhost:5173/`) to view the project.
