@@ -18,25 +18,44 @@
       <header class="z-10 relative">
         <div class="container mx-auto px-5 flex items-center">
           <a href="/" class="mr-auto font-bold text-2xl">Lumlum</a>
-          <nav class="flex space-x-20">
-            <a href="" class="text-sm py-4 duration-300 ease-in-out">Home</a>
+          <nav class="sm:flex space-x-20 hidden">
+            <a href="" class="text-sm py-5 duration-300 ease-in-out">Home</a>
             <a
               href=""
-              class="text-sm py-4 duration-300 ease-in-out text-slate-600 hover:text-black"
+              class="text-sm py-5 duration-300 ease-in-out text-slate-600 hover:text-black"
               >Album</a
             >
             <a
               href=""
-              class="text-sm py-4 duration-300 ease-in-out text-slate-600 hover:text-black"
+              class="text-sm py-5 duration-300 ease-in-out text-slate-600 hover:text-black"
               >Contact</a
             >
           </nav>
+          <button
+            aria-label="Toggle Navigation"
+            class="ml-auto flex sm:hidden cursor-pointer py-5"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          </button>
         </div>
       </header>
 
       <div class="h-screen overflow-hidden">
         <div class="max-w-[600px] mx-auto text-center pt-5 z-30 relative">
-          <h1 class="text-xl sm:text-5xl font-bold leading-snug">
+          <h1 class="text-3xl mt-10 sm:mt-0 sm:text-5xl font-bold leading-snug">
             CAPTURING THE VIBE,<br />FREEZING THE MOMENT
           </h1>
           <p class="font-light mt-3">
